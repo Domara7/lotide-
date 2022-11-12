@@ -13,3 +13,5 @@ assertEqual(1, 1);
 assertEqual("bob", "bob");
 
 module.exports = assertEqual;
+
+console.log("hello")
