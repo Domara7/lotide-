@@ -14,4 +14,3 @@ assertEqual("bob", "bob");
 
 module.exports = assertEqual;
 
-console.log("hello")
