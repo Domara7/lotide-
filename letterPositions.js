@@ -13,3 +13,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 console.log(letterPositions("hello how was your day"));
+
