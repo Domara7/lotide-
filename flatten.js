@@ -24,4 +24,4 @@ function flatten(arr) {
     return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
   }, []);
 }
-console.log(flatten([[1, 2, 3], [4, 5]]));
+module.exports = flatten

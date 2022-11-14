@@ -7,7 +7,7 @@ const assertEqual = function (actual, expected) {
 
 };
 
-const letterCount = (phrase) => {
+const countLetters = (phrase) => {
   let count = {};
   for (const letter of phrase) {
     if (letter in count) {
@@ -18,4 +18,4 @@ const letterCount = (phrase) => {
   }
   return count;
 };
-console.log(letterCount("hello how are you"))
+module.exports = countLetters

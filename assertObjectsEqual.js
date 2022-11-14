@@ -9,10 +9,5 @@ const assertObjectsEqual = function(object1, object2) {
     return false
   }
 };
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-console.log(assertObjectsEqual(ab, ba)); // => true
-
-const abc = { a: "1", b: "2", c: "3" };
-console.log(assertObjectsEqual(ab, abc)); // => false
+module.exports = assertObjectsEqual
 
