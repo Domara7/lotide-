@@ -18,21 +18,21 @@ const countLetters = require('./countLetters')
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertObjectsEqual: assertObjectsEqual,
-  flatten: flatten,
-  findKeyByValue: findKeyByValue,
-  findKey: findKey,
-  eqObjects: eqObjects,
-  eqArrays: eqArrays,
-  countOnly: countOnly,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  map: map,
-  letterPositions: letterPositions,
-  without: without,
-  takeUntil: takeUntil,
-  countLetters: countLetters
+  head,
+  tail,
+  middle,
+  assertObjectsEqual,
+  flatten,
+  findKeyByValue,
+  findKey,
+  eqObjects,
+  eqArrays,
+  countOnly,
+  assertArraysEqual,
+  assertEqual,
+  map,
+  letterPositions,
+  without,
+  takeUntil,
+  countLetters
   };
