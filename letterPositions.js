@@ -1,8 +1,8 @@
-const letterPositions = function(sentence) {
+const letterPositions = function (sentence) {
   const results = {};
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] !== ' ') {
-   
+
       if (results[sentence[i]]) {
         results[sentence[i]].push(i);
       } else {
@@ -13,4 +13,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-module.exports = letterPositions
+module.exports = letterPositions;

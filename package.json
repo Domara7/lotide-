@@ -1,7 +1,7 @@
 {
   "name": "@domara/lotide",
   "version": "1.0.0",
-  "description": "multiple_functions",
+  "description": "Handy Functions To Use",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Domara7/lotide-.git"
   },
-  "author": "Domara",
+  "author": "Domara Hawil https://github.com/Domara7/lotide- ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Domara7/lotide-/issues"

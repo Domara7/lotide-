@@ -5,8 +5,8 @@ const without = function (source, itemsToremove) {
       newArray.push(source[index])
     }
   }
-  return newArray
+  return newArray;
 
-}
+};
 
-module.exports = without
+module.exports = without;

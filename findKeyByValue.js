@@ -1,4 +1,4 @@
-const findKeyByValue = function(objectValue, value) {
+const findKeyByValue = function (objectValue, value) {
   for (const key in objectValue) {
     if (objectValue[key] === value) {
       return (key);
@@ -9,4 +9,4 @@ const findKeyByValue = function(objectValue, value) {
 
 
 
-module.exports = findKeyByValue
+module.exports = findKeyByValue;

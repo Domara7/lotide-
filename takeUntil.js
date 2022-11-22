@@ -1,12 +1,12 @@
-const takeUntil = function(array, callback) {
+const takeUntil = function (array, callback) {
   const final = [];
 
   for (let index of array) {
 
-    if(callback(index) === true){
+    if (callback(index) === true) {
       return final
     }
-    else{
+    else {
       final.push(index);
     }
   }
@@ -14,4 +14,4 @@ const takeUntil = function(array, callback) {
 
 };
 
-module.exports = takeUntil
+module.exports = takeUntil;

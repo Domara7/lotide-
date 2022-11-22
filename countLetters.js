@@ -9,4 +9,4 @@ const countLetters = (phrase) => {
   }
   return count;
 };
-module.exports = countLetters
+module.exports = countLetters;

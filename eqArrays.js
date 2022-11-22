@@ -4,10 +4,10 @@ const eqArrays = function(ar1, ar2){
       return true;
      }
      if (ar1[i] !== ar2[i]){
-      return false
+      return false;
      }
     }
-  }
+  };
 
 
-module.exports = eqArrays
+module.exports = eqArrays;

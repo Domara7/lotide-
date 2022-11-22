@@ -3,4 +3,4 @@ function flatten(arr) {
     return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
   }, []);
 }
-module.exports = flatten
+module.exports = flatten;
